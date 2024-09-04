@@ -1,0 +1,224 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #0D1117;
+    color: #E6EDF3;
+    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size:14px;
+    display: flex;
+    flex-direction: column;
+}
+html,body{
+    height: 100%;
+    margin: 0;
+}
+main {
+    flex-grow: 1;
+}
+i{
+    color: #6D737A;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:#6D737A;
+}
+
+/* Header */
+.divHeader{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.divHeader img{
+    width: 50px;
+}
+.content-divHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.divHeader input{
+    width: 150px;
+    height: 25px;
+    background:#0D1117;
+    border: 1px solid #3D444D;
+    border-radius: 5px;
+    color: #898a8b;
+}
+.divHeader button{
+    background-color: #0D1117;
+    color:#898a8b;
+    border: 1px solid #898a8b;
+    padding:7px;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+#imgNav{
+    border-radius: 50px;
+    width: 40px;
+}
+.divheader input::placeholder{
+    opacity: 1;
+    color: #3D444D;
+    
+}
+/* Nav */
+
+nav{
+    border-bottom: 1px grey solid;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+nav ul li{
+    margin-right: 2rem;
+}
+
+nav ul li a i{
+    margin-right: 10px;
+}
+#div-avatar-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    width: 15%;
+    margin-right: 25px;
+}
+.imgAvatar{
+    width: 100%;
+    border-radius: 150%;
+}
+.userName{
+    font-weight: lighter;
+    color: #6D737A;
+    font-size: 20px;
+}
+#bnt-edit-profile{
+    color:white;
+    background: #212830;
+    border: 1px solid #3D444D;
+    padding: 6px 20%;
+    border-radius: 5px;
+    width: 100%;
+    font-weight: 300;
+    margin-top: 15px;
+}
+.iconos-achievements{
+    width: 60px;
+    display: block;
+}
+.div-display-row{
+    margin-top: 20px;
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    justify-content: start;
+}
+#linea-divisora{
+    border-bottom: 1px solid #2F353D;
+    margin: 20px 0px;
+}
+
+
+
+/*Repositorios section*/
+#section-repositorios{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 50%;
+    align-items: top;
+    height: 80px;
+}
+#titulo-seccion-repo {
+    font-weight: 300;
+    font-size: 16px;
+    width: 100%;
+}
+
+.div-repositorios {
+    flex: 1 1 45%;
+    box-sizing: border-box;
+    padding: 5px 20px;
+    border: 1px solid #30363D;
+    border-radius: 5px;
+}
+.div-titulos-repo,
+.div-repositorios-info {
+    margin: 0;
+    padding: 5px ;
+}
+#section-repositorios p {
+    line-height: 2;
+}
+.div-titulos-repo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.titulos-repositorios{
+    color: #408AE9;
+    font-weight: 500;
+}
+.btn-privacidad{
+    color:#6D737A;
+    background: none;
+    border-radius: 40px;
+    border: 1px solid #3C434C;
+    padding: 3px 8px;
+    font-size: 11.5px;
+}
+.div-repositorios-info{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+.div-repositorios-info p{
+    color:#6D737A;
+}
+.circle-lenguaje {
+    background-color: #E34C26;
+    border-radius: 50%; 
+    width: 11px; 
+    height: 11px; 
+    display: inline-block;
+    margin-right: 4px;
+}
+.circle-js{
+    background-color: #F1E05A;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+}
+
+/*FOOTER*/
+footer, footer ul{
+    color:#9198A1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative; /*TODO: evaluar si es necesario*/
+}
+#footer-icon{
+    width: 35px;
+    height: 35px;
+    
+}
+
