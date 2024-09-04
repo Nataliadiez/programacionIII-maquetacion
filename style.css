@@ -17,6 +17,10 @@ html,body{
 }
 main {
     flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 i{
     color: #6D737A;
@@ -207,6 +211,23 @@ nav ul li a i{
     justify-content: center;
 }
 
+/*SECTION CONTRIBUTIONS*/
+#contributors{
+    display: flex;
+    flex-direction: column;
+}
+#contributors h3{
+    margin-top: 20px;
+}
+#btn-show-activity{
+    color:#4493F8;
+    background: none;
+    border: 1px solid #3D444D;
+    padding: 10px;
+    border-radius: 5px;
+    align-content: center;
+}
+
 /*FOOTER*/
 footer, footer ul{
     color:#9198A1;
@@ -216,9 +237,11 @@ footer, footer ul{
     gap: 20px;
     position: relative; /*TODO: evaluar si es necesario*/
 }
+footer{
+    margin-top: 500px;
+}
 #footer-icon{
     width: 35px;
     height: 35px;
-    
 }
 
